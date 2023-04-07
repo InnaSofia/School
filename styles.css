@@ -61,7 +61,16 @@ html, button{
     margin-bottom: 20px;
     background-color: #E89B2B;
     border-radius: 100%;
-    border: 1px solid white
+    border: 1px solid white;
+}
+
+.elips3{
+    height: 10px;
+    width: 10px;
+    margin-bottom: 20px;
+    background-color: #E89B2B;
+    border-radius: 100%;
+    appearance: none;
 }
 .position-elips{
     display: flex;
@@ -112,7 +121,7 @@ html, button{
 }
 .inform-heading2{
    
-    font-size: 40px;
+    font-size: 20px;
     margin-bottom: 10px;
 }
 .more{
@@ -573,4 +582,17 @@ display: flex;
     display: flex;
     justify-content: flex-end;
     padding-bottom: 5%;
+}
+.line{
+    border-width: 3px 0 0 0;
+    color: #797876;
+    border-style: solid;
+
+}
+.line-text{
+    color: #797876;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: right;
+    padding: 1% 2% 10% 0;
 }
