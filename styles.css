@@ -2,6 +2,9 @@
 html, button{
     font-family: 'Yanone Kaffeesatz';
 }
+*{
+    box-sizing: border-box;
+}
 #background{
     background: url(background.png);
     background-position: center top;
@@ -328,6 +331,8 @@ display: flex;
 @media (max-width: 700px){
 .conteiner-rates {
     flex-wrap: wrap;
+    margin: 0 2%;
+}
 }
 #img-hero{
     background-position: right;
@@ -335,7 +340,7 @@ display: flex;
 .position-img-hero{
     background: linear-gradient(114deg, rgb(18 18 18 / 39%), #19191991);
 }
-}
+
 
 #rates1{
     background-image: url(Rectangle\ 45.png);
@@ -502,18 +507,30 @@ display: flex;
     width: 350px;
     margin-top: 15%;
 }
+
+@media (max-width: 600px){
+    .position_day {
+        flex-direction: column;
+        align-items: center;
+}
+    .day_time{
+        font-size: 15px;
+        font-weight: 300;
+    }
+    .woman {
+        width: 250px;
+}
+}
+
 .day{
     border: 1px solid #E89B2B;
     color: white;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 200;
-    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    word-spacing: 2rem;
-    margin: 2% 0;
-    flex-grow: 1;
+    width: calc((100% - 10px * 1) / 2 );
 }
 .day_time{
     margin:0 1% ;
@@ -521,13 +538,9 @@ display: flex;
 .position_day{
     display: flex;
     gap:10px;
-    justify-content: space-between;
+    flex-wrap: wrap;
 }
-.position_day2{
-    display: flex;
-    width: 50%;
 
-}
 #img-hero2{
     background: url(Rectangle\ 444.png);
     background-position: center top;
@@ -536,6 +549,18 @@ display: flex;
     color: #E89B2B;
     border-style: solid;
     margin: 5% 0;
+}
+@media (max-width: 600px){
+    #img-hero2{
+        background-position:right;
+        background-size: cover;  
+    }
+    .conteiner_position_Dance{
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        padding: 5% 5%;
+    }
 }
 .button_other{
     color: white;
