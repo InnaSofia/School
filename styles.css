@@ -21,11 +21,6 @@ html, button{
     align-items: center;
     justify-content: space-between;
     box-shadow: 1px 2px 4px #121212;
-    position: sticky;
-    top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
     background: linear-gradient(114deg, rgba(27, 26, 26, 0.9), #42424252);
 }
 .conteiner{
