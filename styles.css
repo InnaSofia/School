@@ -21,6 +21,11 @@ html, button{
     align-items: center;
     justify-content: space-between;
     box-shadow: 1px 2px 4px #121212;
+    position: sticky;
+    top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
     background: linear-gradient(114deg, rgba(27, 26, 26, 0.9), #42424252);
 }
 .conteiner{
@@ -38,18 +43,34 @@ html, button{
     color: white;
     font-size: 40px;
     font-weight: 600;
+    text-decoration: none;
+}
+
+.Logo:hover{
+    color: #E89B2B;
+}
+.Logo:active{
+    color: white;
 }
 .Logo1{
     font-size: 30px;
     font-weight: 200;
+    color: white;
 }
 .navigation-text{
     color: #bdbdbd;
     font-size: 20px;
     font-weight: 300;
     padding-left: 10px;
+    text-decoration: none;
 
 }
+.navigation-text:hover{
+    color: #E89B2B;
+  }
+  .navigation-text:active{
+    color: white;
+  }
 .elips{
     height: 10px;
     width: 10px;
@@ -103,6 +124,13 @@ html, button{
     border: 1px solid #ffffff;
     font-size: 25px;
     padding: 5px 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button-none:hover{
+    color:  #E89B2B;
+    font-weight: 500;
 }
 .button-none2{
     appearance: none;
@@ -113,6 +141,12 @@ html, button{
     font-size: 25px;
     padding: 5px 20px;
     margin-left: 0;
+    cursor: pointer;
+    text-decoration: none;
+}
+.button-none2:hover{
+    color: white;
+    font-weight: 200;
 }
 .button-position{
     display: flex;
@@ -127,7 +161,14 @@ html, button{
 .more{
     color: #E89B2B;
     font-weight:400;
+    cursor: pointer;
 }
+
+.more:hover{
+    color: white;
+    font-weight: 200;
+}
+
 .position-text{
     display: flex;
     padding: 40px 50px 20px 0;
@@ -223,7 +264,14 @@ appearance: none;
     border: none;
     font-size: 25px;
     padding: 5px 10px;
+    cursor: pointer;
 }
+
+.button_enroll:hover{
+    transform: scale(1.1);
+}
+
+
 .button_LEARN_MORE{
 appearance: none;
 color: white;
@@ -232,7 +280,14 @@ border: 2px solid #ffffff;
 font-size: 25px;
 padding: 5px 10px;
 background: linear-gradient(114deg, rgb(27 26 26 / 40%), #19191940);
+cursor: pointer;
 }
+
+.button_LEARN_MORE:hover{
+    transform: scale(1.1);
+}
+
+
 .position_button_img{
 display: flex;
     justify-content: space-around;
@@ -296,7 +351,7 @@ display: flex;
 .phone{
     color: white;
     font-size: 20px;
-    font-family: 'Open Sans';
+    font-family: 'Yandex-UI-Icons-Private';
 }
 .text-address{
     color: #E89B2B;
@@ -347,9 +402,7 @@ display: flex;
 #img-hero{
     background-position: right;
 }
-.position-img-hero{
-    background: linear-gradient(114deg, rgb(18 18 18 / 39%), #19191991);
-}
+
 
 
 #rates1{
@@ -409,7 +462,7 @@ display: flex;
 }
 .text_orange{
     color: #E89B2B;
-    font-family: 'Open Sans';
+    font-family: 'Yandex-UI-Icons-Private';
     font-size: 30px;
     font-weight: 700;
 }
@@ -437,7 +490,14 @@ display: flex;
 }
 .SOCIAL_NETWORK{
     margin-left: 1%;
+    cursor: pointer;
 }
+.SOCIAL_NETWORK:hover{
+    transform: scale(1.2);
+   
+}
+
+
 .Logo2{
     font-size: 30px;
     font-weight: 200;
@@ -484,7 +544,7 @@ display: flex;
     font-size:20px ;
     font-weight: 400;
     margin-top: 10px;
-    font-family: 'Open Sans';
+    font-family: 'Yandex-UI-Icons-Private';
 }
 .width{
     width: 100%;
@@ -559,6 +619,11 @@ display: flex;
     color: #E89B2B;
     border-style: solid;
     margin: 5% 0;
+    
+}
+
+.margin{
+    margin-bottom: 5%;
 }
 @media (max-width: 600px){
     #img-hero2{
@@ -670,7 +735,7 @@ display: flex;
     background-color: #181818;
     padding: 10px 0;
     margin-right: 3px;
-    font-family:'Open Sans';
+    font-family:'Yandex-UI-Icons-Private';
 }
 .frame{
     border: 1px solid #E89B2B;
