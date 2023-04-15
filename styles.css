@@ -7,7 +7,7 @@ html, button{
 }
 #background{
     background: url(background.png);
-    background-position: right;
+    background-position:70%;
     background-size: cover;
     
     border-width: 0 0 3px 0;
@@ -40,7 +40,21 @@ html, button{
     font-weight: 600;
     text-decoration: none;
 }
+@media (max-width:1000px){
+    .Logo{
+        margin-left: 2%;
+    }
+    .navigation{
+        margin-right: 2%;
+    }
+}
 
+@media (max-width:750px){
+    .navigation{
+flex-wrap: wrap;
+gap: 10px;
+    }
+}
 .Logo:hover{
     color: #E89B2B;
 }
@@ -95,10 +109,18 @@ html, button{
 }
 .background-conteiner{
     background: linear-gradient(114deg, rgb(27 26 26 / 98%), #191919ba);
-    width: 50%;
+    margin-right: 60%;
     color: white;
     padding-bottom: 10px;
 }
+
+    @media (max-width:850px){
+        .background-conteiner{
+            margin-right: 10%;
+            margin-left: 10%; 
+    }
+}
+
 .inform-heading{
     color: white;
     font-size: 50px;
@@ -326,10 +348,6 @@ display: flex;
         flex-wrap: wrap;
         text-align: center;
     }
-    .navigation{
-        flex-wrap: wrap;
-    }
-    
 }
 
 .navigation{
