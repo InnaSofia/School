@@ -170,6 +170,13 @@ gap: 10px;
     flex-direction: row;
     margin: 5px 0 50px 0;
 }
+
+@media (max-width:500px){
+    .button-position{
+flex-wrap: wrap;
+flex-direction: column;
+    }
+}
 .inform-heading2{
    
     font-size: 20px;
